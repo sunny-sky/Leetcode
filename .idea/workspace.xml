@@ -27,7 +27,7 @@
     <session id="-2102520531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.36" value="1" />
@@ -36,7 +36,7 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.44" value="2" />
-          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="2" />
@@ -44,28 +44,28 @@
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="88" />
-          <entry key="java" value="8013" />
+          <entry key="java" value="8199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8013" />
+          <entry key="JAVA" value="8199" />
           <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_217_ContainsDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
+            <state relative-caret-position="528">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_219_ContainsDuplicate2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -135,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/cn/leetcode/easyAlgorithm/No_217_ContainsDuplicate.java" />
         <option value="$PROJECT_DIR$/src/cn/leetcode/easyAlgorithm/No_219_ContainsDuplicate2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_219_ContainsDuplicate2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_268_MissingNumber.java" />
       </list>
     </option>
   </component>
@@ -160,8 +161,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2216" />
-    <option name="y" value="42" />
+    <option name="x" value="2270" />
+    <option name="y" value="68" />
     <option name="width" value="1349" />
     <option name="height" value="965" />
   </component>
@@ -171,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -188,19 +188,26 @@
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="list&#9;PSI&#9;JAVA://java.awt.List" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534564883088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534647432377" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -335,12 +342,13 @@
       <workItem from="1534386789325" duration="2823000" />
       <workItem from="1534475155532" duration="694000" />
       <workItem from="1534475950773" duration="184000" />
-      <workItem from="1534563851710" duration="1016000" />
+      <workItem from="1534563851710" duration="1091000" />
+      <workItem from="1534647004342" duration="443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50241000" />
+    <option name="totallyTimeSpent" value="50759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,9 +360,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2216" y="42" width="1349" height="965" extended-state="0" />
+    <frame x="2270" y="68" width="1349" height="965" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22963537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,15 +525,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_217_ContainsDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="528">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_268_MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_219_ContainsDuplicate2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
