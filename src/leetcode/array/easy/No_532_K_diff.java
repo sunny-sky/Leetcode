@@ -22,14 +22,14 @@ public class No_532_K_diff {
                 // k==0,则重复元素为要求元素，即n与n相差0
                 if (entry.getValue() >= 2) {
                     count++;
-                } else {
+                }
+            }else {
                 // k != 0, 与n相差k的元素为n+k, 若n+k存在则计数加1
                     if (map.containsKey(entry.getKey() + k)) {
                         count++;
                     }
                 }
             }
-        }
-        return count++;
+        return count;
     }
 }
