@@ -41,6 +41,9 @@ public class No_001_TwoSum {
 
     public int[] twoSum3(int[] nums,int target){
         Map<Integer, Integer> map = new HashMap<>();
+        // 对muns中每个数，若map中存在key = target - nums[i];则返回他们在nums中的下标
+        // 若不存在，则把num[i]和它的下表i放入map中，等待后续元素匹配
+        // 匹配成功，意味着nums[i] + nums[j] = target
         for(int i = 0; i < nums.length; i++){
             int complement = target - nums[i];
             if(map.containsKey(complement)){
