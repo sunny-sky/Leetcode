@@ -81,12 +81,12 @@
           <entry key="dummy" value="88" />
           <entry key="gitigonre" value="19" />
           <entry key="gotignore" value="17" />
-          <entry key="java" value="21645" />
+          <entry key="java" value="21985" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21645" />
+          <entry key="JAVA" value="21985" />
           <entry key="PLAIN_TEXT" value="105" />
           <entry key="XML" value="19" />
         </counts>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_888_FairCandySwap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="506">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -219,7 +219,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="385" />
     <option name="y" value="6" />
     <option name="width" value="1450" />
@@ -262,7 +262,7 @@
     <property name="SearchEverywhereHistoryKey" value="list&#9;PSI&#9;JAVA://java.awt.List" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536654873435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536656139555" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -440,12 +440,12 @@
       <workItem from="1536495421954" duration="4298000" />
       <workItem from="1536568451997" duration="3418000" />
       <workItem from="1536593005304" duration="21000" />
-      <workItem from="1536653876911" duration="809000" />
+      <workItem from="1536653876911" duration="2243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114559000" />
+    <option name="totallyTimeSpent" value="115993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_888_FairCandySwap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="506">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
