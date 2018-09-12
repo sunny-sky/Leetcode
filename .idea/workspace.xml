@@ -27,7 +27,7 @@
     <session id="-2102520531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="58" />
+          <entry key="project.closed" value="60" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.11" value="1" />
@@ -54,9 +54,9 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="61" />
+          <entry key="project.opened" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,13 +64,13 @@
           <entry key="gitattributes" value="1" />
           <entry key="gitigonre" value="2" />
           <entry key="gotignore" value="2" />
-          <entry key="java" value="61" />
+          <entry key="java" value="64" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="64" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
@@ -81,12 +81,12 @@
           <entry key="dummy" value="88" />
           <entry key="gitigonre" value="19" />
           <entry key="gotignore" value="17" />
-          <entry key="java" value="22300" />
+          <entry key="java" value="22902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22300" />
+          <entry key="JAVA" value="22902" />
           <entry key="PLAIN_TEXT" value="105" />
           <entry key="XML" value="19" />
         </counts>
@@ -98,20 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_888_FairCandySwap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_896_MonotonicArray.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/string/easy/No_13_RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="1298">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -162,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_414_ThirdMaxNum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_448_DisappearedNum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_485_MaxConsecutiveOnes.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_001_TwoSum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_532_K_diff.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_561_ArrayPartition.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_566_ReshapeMatrix.java" />
@@ -187,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_867_TransposeMatrix.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_888_FairCandySwap.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_896_MonotonicArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/array/easy/No_001_TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_13_RomanToInteger.java" />
       </list>
     </option>
   </component>
@@ -212,8 +204,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="385" />
-    <option name="y" value="6" />
+    <option name="x" value="477" />
+    <option name="y" value="5" />
     <option name="width" value="1450" />
     <option name="height" value="1040" />
   </component>
@@ -223,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -242,19 +233,27 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="list&#9;PSI&#9;JAVA://java.awt.List" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536658191175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536730507033" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,13 +278,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No_840_MagicSquaresInGrid">
-    <configuration name="No_169_MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.leetcode.easyAlgorithm.No_169_MajorityElement" />
+  <component name="RunManager" selected="Application.No_13_RomanToInteger">
+    <configuration name="No_13_RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.easy.No_13_RomanToInteger" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.leetcode.easyAlgorithm.*" />
+          <option name="PATTERN" value="leetcode.string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +345,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.No_169_MajorityElement" />
       <item itemvalue="Application.No_628_MaximunProduct" />
       <item itemvalue="Application.No_747_LargestNumberAtLeastTwiceOthers" />
       <item itemvalue="Application.No_766_ToeplitzMatrix" />
       <item itemvalue="Application.No_840_MagicSquaresInGrid" />
+      <item itemvalue="Application.No_13_RomanToInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No_13_RomanToInteger" />
         <item itemvalue="Application.No_840_MagicSquaresInGrid" />
         <item itemvalue="Application.No_766_ToeplitzMatrix" />
         <item itemvalue="Application.No_747_LargestNumberAtLeastTwiceOthers" />
         <item itemvalue="Application.No_628_MaximunProduct" />
-        <item itemvalue="Application.No_169_MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -432,12 +431,13 @@
       <workItem from="1536495421954" duration="4298000" />
       <workItem from="1536568451997" duration="3418000" />
       <workItem from="1536593005304" duration="21000" />
-      <workItem from="1536653876911" duration="4118000" />
+      <workItem from="1536653876911" duration="5313000" />
+      <workItem from="1536721924262" duration="3767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117868000" />
+    <option name="totallyTimeSpent" value="122830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,10 +449,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="5" width="1160" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="382" y="4" width="1160" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28947368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29491833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +460,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988363" weight="0.32851985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48487198" weight="0.32855093" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48487198" weight="0.40343347" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988363" weight="0.42839953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,20 +541,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_035_SearchInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2821">
-          <caret line="642" column="25" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_066_PlusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -680,13 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_001_TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -863,24 +841,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_896.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_896.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_888_FairCandySwap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_896_MonotonicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/No_001_TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/easy/leetcode/string/easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/string/easy/No_13_RomanToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
