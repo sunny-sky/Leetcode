@@ -19,14 +19,13 @@ public class No_026_RemoveDuplicates {
         return i+1;
     }
     public int removeDuplicates2(int[] nums) {
-        if(nums.length==0){
+        if (nums.length == 0) {
             return 0;
         }
         int i = 0;
-        for(int j=1; j<nums.length; j++){
-            if(nums[i] != nums[j]){
-                i += 1;
-                nums[i] = nums[j];
+        for (int j = 0; j < nums.length; ++j) {
+            if (nums[j] != nums[i]) {
+                nums[++i] = nums[j];
             }
         }
         return i+1;
