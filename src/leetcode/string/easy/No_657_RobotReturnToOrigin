@@ -37,4 +37,33 @@ public class No_657_RobotReturnToOrigin {
         }
         return x == 0 && y == 0;
     }
+    
+     public boolean judgeCircle3(String moves) {
+        int left = 0,top = 0;
+        char[] c = moves.toCharArray();
+        for(int i = 0;i<c.length;i++){
+            switch(c[i]){
+                case 'U':
+                    top++;
+                    break;
+                case 'D':
+                    top--;
+                    break;
+                case 'L':
+                    left++;
+                    break;
+                case 'R':
+                    left--;
+                    break;
+            }
+        }
+        return left == 0 && top == 0;
+    }
+    public boolean judgeCircle4(String moves) {
+        int a[] = new int[100];
+		for (char c : moves.toCharArray() ) {
+			a[c]++;
+		}
+		return a['R'] == a['L'] && a['U'] == a['D'];
+    }
 }
