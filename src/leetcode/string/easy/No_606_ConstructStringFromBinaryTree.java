@@ -1,3 +1,5 @@
+package leetcode.string.easy;
+
 public class No_606_ConstructStringFromBinaryTree {
 	public String tree2str(TreeNode t) {
         if (t == null) {

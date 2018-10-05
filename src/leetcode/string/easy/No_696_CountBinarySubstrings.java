@@ -1,3 +1,5 @@
+package leetcode.string.easy;
+
 public class No_696_CountBinarySubstrings {
 	public int countBinarySubstrings(String s) {
 		int[] groups = new int[s.length()];

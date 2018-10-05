@@ -1,3 +1,5 @@
+package leetcode.string.easy;
+
 public class No_657_RobotReturnToOrigin {
 	public boolean judgeCircle(String moves) {
         if (moves.length() == 0) {

@@ -1,3 +1,5 @@
+package leetcode.string.easy;
+
 public class No_686_RepeatedStringMatch {
 
   // 550 ms,排名6%...

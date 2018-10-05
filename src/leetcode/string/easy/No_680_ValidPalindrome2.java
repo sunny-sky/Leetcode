@@ -1,3 +1,5 @@
+package leetcode.string.easy;
+
 class No_680_ValidPalindrome2 {
 
     public boolean validPalindrome (String s) {
