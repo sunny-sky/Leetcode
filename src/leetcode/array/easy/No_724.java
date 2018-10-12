@@ -1,3 +1,6 @@
+package leetcode.array.easy;
+
+
 public class No_724{
     public int pivotIndex(int[] nums) {
         int sum = 0, leftsum = 0;

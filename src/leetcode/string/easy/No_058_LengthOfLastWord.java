@@ -1,6 +1,6 @@
 package leetcode.string.easy;
 
-public class No_58_LengthOfLastWord {
+public class No_058_LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         String words[] = s.split(" ");
         if (words.length == 0) {

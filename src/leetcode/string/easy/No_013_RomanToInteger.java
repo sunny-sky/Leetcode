@@ -1,6 +1,6 @@
 package leetcode.string.easy;
 
-public class No_13_RomanToInteger {
+public class No_013_RomanToInteger {
     public static int romanToInt(String s) {
         int len = s.length(),res = 0;
         for (int i = 0; i < len; ++i) {
@@ -51,12 +51,12 @@ public class No_13_RomanToInteger {
     }
     public static int romanToInt2(String s) {
         int sum=0;
-        if(s.indexOf("IV")!=-1){sum-=2;}
-        if(s.indexOf("IX")!=-1){sum-=2;}
-        if(s.indexOf("XL")!=-1){sum-=20;}
-        if(s.indexOf("XC")!=-1){sum-=20;}
-        if(s.indexOf("CD")!=-1){sum-=200;}
-        if(s.indexOf("CM")!=-1){sum-=200;}
+        if(s.contains("IV")){sum-=2;}
+        if(s.contains("IX")){sum-=2;}
+        if(s.contains("XL")){sum-=20;}
+        if(s.contains("XC")){sum-=20;}
+        if(s.contains("CD")){sum-=200;}
+        if(s.contains("CM")){sum-=200;}
 
         char c[]=s.toCharArray();
         int count=0;
