@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c584b89e-e695-474b-8bb8-b01144e9e213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/No_108_ConvertSortedArraytoBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/easy/No_101_SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/easy/No_101_SymmetricTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +30,7 @@
     <session id="-2102520531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="117" />
+          <entry key="project.closed" value="119" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.10" value="2" />
@@ -43,6 +43,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="3" />
           <entry key="project.open.time.36" value="4" />
           <entry key="project.open.time.37" value="3" />
@@ -72,7 +73,7 @@
           <entry key="project.open.time.79" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="124" />
+          <entry key="project.opened" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,13 +87,13 @@
           <entry key="gitattributes" value="1" />
           <entry key="gitigonre" value="2" />
           <entry key="gotignore" value="2" />
-          <entry key="java" value="159" />
+          <entry key="java" value="162" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="162" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="2" />
@@ -104,12 +105,12 @@
           <entry key="dummy" value="92" />
           <entry key="gitigonre" value="19" />
           <entry key="gotignore" value="17" />
-          <entry key="java" value="48708" />
+          <entry key="java" value="50096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48708" />
+          <entry key="JAVA" value="50096" />
           <entry key="PLAIN_TEXT" value="111" />
           <entry key="XML" value="19" />
         </counts>
@@ -121,7 +122,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/easy/No_108_ConvertSortedArraytoBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_709_ToLowerCase.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_686_RepeatedStringMatch.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_606_ConstructStringFromBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_657_RobotReturnToOrigin.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_680_ValidPalindrome2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/easy/No_696_CountBinarySubstrings.java" />
@@ -193,6 +201,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/utils/TreeNode.java" />
         <option value="$PROJECT_DIR$/../gitskills/Solution1.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/No_101_SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/No_104_MaximumDepthofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/No_107_BinaryTreeLevelOrderTraversalII.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/No_108_ConvertSortedArraytoBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -218,10 +229,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="859" />
-    <option name="y" value="9" />
-    <option name="width" value="891" />
-    <option name="height" value="1029" />
+    <option name="x" value="672" />
+    <option name="width" value="1254" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,8 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,36 +249,19 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="list&#9;PSI&#9;JAVA://java.awt.List" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541520611249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541739066541" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -511,11 +503,13 @@
       <workItem from="1541485830163" duration="3559000" />
       <workItem from="1541491070185" duration="2877000" />
       <workItem from="1541601464728" duration="1274000" />
+      <workItem from="1541686408832" duration="4023000" />
+      <workItem from="1541731763968" duration="4797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276094000" />
+    <option name="totallyTimeSpent" value="284914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,9 +521,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="859" y="9" width="891" height="1029" extended-state="0" />
+    <frame x="672" y="0" width="1254" height="1046" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24974093" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21943049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -589,27 +583,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="486" column="86" selection-start-line="486" selection-start-column="86" selection-end-line="486" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/string/easy/No_788_RotatedDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/string/easy/No_819_MostCommonWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/string/easy/No_824_GoatLatin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -859,11 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,11 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,6 +916,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/No_104_MaximumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/No_107_BinaryTreeLevelOrderTraversalII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/No_108_ConvertSortedArraytoBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
