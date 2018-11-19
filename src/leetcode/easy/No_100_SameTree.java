@@ -1,15 +1,8 @@
 package leetcode.easy;
 
-public class No_100_SameTree {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+import leetcode.utils.TreeNode;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
+public class No_100_SameTree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null)
