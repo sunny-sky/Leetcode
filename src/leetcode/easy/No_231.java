@@ -14,16 +14,6 @@ public class No_231 {
      * @return boolean
      */
     public boolean isPowerOfTwo(int n) {
-        if (n == 1) {
-            return true;
-        }
-        while (n != 1) {
-            if (n % 2 == 0) {
-                n /= 2;
-            } else {
-                return false;
-            }
-        }
-        return true;
+        return n > 0 && Math.pow(2, 31) % n == 0;
     }
 }
