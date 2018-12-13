@@ -42,7 +42,7 @@ public class No_700_SearchinBSTree {
      * @param val 要搜索的目标值
      * @return TreeNode
      */
-    public TreeNode searchBST(TreeNode root, int val) {
+    public TreeNode searchBST1(TreeNode root, int val) {
         if (root == null) {
             return null;
         }
