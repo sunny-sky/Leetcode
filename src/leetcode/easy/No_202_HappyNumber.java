@@ -15,8 +15,9 @@ public class No_202_HappyNumber {
                 res += temp * temp;
                 sum /= 10;
             }
-            if (res == 1)
+            if (res == 1) {
                 return true;
+            }
             sum = res;
         }
         return false;
