@@ -14,8 +14,8 @@ public class No_054 {
     /**
      * @param matrix 输入矩阵
      * @return java.util.List<java.lang.Integer>
-     * @Description 遍历每一层，每一层设置4个tag位，如第一层tag1=[0,0]，tag2=[0,lenX]
-     * 遇到某tag则换向，优先考虑tag位重合的情况，为最后一次遍历
+     * @Description 遍历每一层，每一层设置4个tag位，rowBegin  rowEnd  colBegin  colEnd
+     * 遇到某tag则换向
      * @Auther Liang
      * @date 10:23 2019/3/12
      */
