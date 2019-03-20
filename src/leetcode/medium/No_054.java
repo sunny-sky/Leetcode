@@ -1,7 +1,6 @@
 package leetcode.medium;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,33 +20,44 @@ public class No_054 {
      * @date 10:23 2019/3/12
      */
     public List<Integer> spiralOrder(int[][] matrix) {
-        // 判空
-        if (matrix == null || matrix.length == 0 && matrix[0].length == 0) {
-            return new ArrayList<>();
-        }
         List<Integer> res = new ArrayList<>();
-        int dx = 0, dy = 0;
-        int[] tag1, tag2, tag3, tag4;
-        int lenX = matrix[0].length, lenY = matrix.length;
-        // 加入list的置0，遇到0或超出界限换向
-        for (int i = 0; i < (lenX + 1) / 2 && i < (lenY + 1) / 2; i++) {
-            tag1 = new int[]{i, i}; // 左上
-            tag2 = new int[]{i, lenY - 1 - i}; // 右上
-            tag3 = new int[]{lenX - 1 - i, lenY - 1 - i}; // 右下
-            tag4 = new int[]{lenX - 1 - i, i}; // 左下
-            // 遍历该层
-            for (int x = i, y = i;;) {
-                res.add(matrix[x][y]);
-                if (Arrays.equals(tag1, tag2) && Arrays.equals(tag1, tag3)) {
-                    break;
-                }
-                if (!Arrays.equals(tag1, tag2)) {
+        // 判空
+        if (matrix.length == 0) {
+            return res;
+        }
+        // init parameter
+        int rowBegin = 0;
+        int rowEnd = matrix.length - 1;
+        int colBegin = 0;
+        int colEnd = matrix[0].length - 1;
 
-                } else {
-
-                }
-
+        while (rowBegin <= rowEnd && colBegin <= colEnd) {
+            // traverse right
+            for (int j = colBegin; j <= colEnd; j++) {
+                res.add(matrix[rowBegin][j]);
             }
+            rowBegin++;
+            // traverse down
+            for (int j = rowBegin; j <= rowEnd; j++) {
+                res.add(matrix[j][colEnd]);
+            }
+            colEnd--;
+
+            if (rowBegin <= rowEnd) {
+                // traverse left
+                for (int j = colEnd; j >= colBegin; j--) {
+                    res.add(matrix[rowEnd][j]);
+                }
+            }
+            rowEnd--;
+
+            if (colBegin <= colEnd) {
+                // traverse up
+                for (int j = rowEnd; j >= rowBegin; j--) {
+                    res.add(matrix[j][colBegin]);
+                }
+            }
+            colBegin++;
         }
         return res;
     }
