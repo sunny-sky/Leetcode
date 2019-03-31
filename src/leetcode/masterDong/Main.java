@@ -25,10 +25,10 @@ class Pair {
 public class Main {
 
     static int n;
-    static Point[] points;
+    private static Point[] points;
     static boolean[] vis;
     // 两圆距离
-    static double dist(int u, int v) {
+    private static double dist(int u, int v) {
         // x轴距离平方
         double a = (points[u].x - points[v].x) * (points[u].x - points[v].x);
         // y轴距离平方
@@ -64,12 +64,12 @@ public class Main {
             // 初始化d，代表剩余的半径成长空间
             double d = 9999999;
             // 遍历整个list，，则确定所有点中最小距离
-            for (int i = 0; i < list.size(); i++) {
+            for (Pair aList : list) {
                 // 若该对点中一个以上停止生长
-                if (vis[list.get(i).u] || vis[list.get(i).v])
-                    d = Math.min(d, list.get(i).d);
+                if (vis[aList.u] || vis[aList.v])
+                    d = Math.min(d, aList.d);
                 else
-                    d = Math.min(d, list.get(i).d / 2);
+                    d = Math.min(d, aList.d / 2);
             }
             // 每个圆半径先生长到d
             for (int i = 0; i < n; i++) {
