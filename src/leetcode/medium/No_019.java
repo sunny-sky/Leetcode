@@ -22,6 +22,5 @@ public class No_019 {
 
         node_j.next = node_j.next.next;
         return temp.next;
-
     }
 }
